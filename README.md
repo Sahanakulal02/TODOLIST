@@ -18,7 +18,7 @@ A modern, production-ready Todo Management Application with full CRUD functional
 
 ### Database
 - **MongoDB** - NoSQL database
-- **Mongoose** - ODM for MongoDB
+
 
 ---
 
@@ -38,8 +38,8 @@ A modern, production-ready Todo Management Application with full CRUD functional
 ## Installation
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- MongoDB (local or Atlas)
+- Node.js 
+- MongoDB 
 
 ### 1. Navigate to project root
 
@@ -54,12 +54,8 @@ cd backend
 npm install
 ```
 
-Create a `.env` file (copy from `.env.example`):
+Create a `.env` file 
 
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/todo-app
-```
 
 ### 3. Frontend Setup
 
@@ -85,7 +81,7 @@ For development with auto-reload:
 npm run dev
 ```
 
-The API runs on `http://localhost:5000`
+
 
 ### Frontend
 
@@ -93,10 +89,6 @@ The API runs on `http://localhost:5000`
 cd frontend
 npm run dev
 ```
-
-The app runs on `http://localhost:3000`
-
-**Note:** Ensure MongoDB is running before starting the backend.
 
 ---
 
